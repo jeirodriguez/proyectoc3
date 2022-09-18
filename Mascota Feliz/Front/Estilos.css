@@ -1,0 +1,43 @@
+body{
+	background-color:PaleGreen;
+	text-align:center;
+
+	
+}
+#cabecera{
+	color:yellow;
+	text-shadow:3px 3px DeepSkyBlue;
+	background-color:darkgreen;
+	font:bold 30px Helvetica;
+	border-radius:25px;
+	text-align:center;
+	line-height:40px;
+	height:40px;
+	width:60%;
+	margin-right:20%;
+	margin-left:20%;
+}
+form{
+	background-color: #9fd5d1;
+	width:80%;
+	height:300px;
+	margin-left:10%;
+	margin-right:10%;
+	border:3px solid green;
+	margin-top:80px;
+ 
+}
+.fila{
+	margin-top:50px;
+	
+}
+
+ul.en-cols{
+	 margin-top:50px;
+	 text-align:center;
+	 list-style:none;
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    columns: 5;
+    list-style-position: center;/*Es importante añadir*/
+}
