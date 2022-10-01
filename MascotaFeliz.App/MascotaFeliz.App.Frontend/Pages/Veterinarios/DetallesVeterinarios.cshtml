@@ -1,0 +1,28 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.DetallesVeterinariosModel
+@{
+}
+<h1>Detalles del Veterinario</h1>
+
+<div>
+    Id: @Model.veterinario.Id
+</div>
+<div>
+    Cedula: @Model.veterinario.Cedula
+</div>
+<div>
+    Nombre: @Model.veterinario.Nombres
+</div>
+<div>
+    Apellido: @Model.veterinario.Apellidos
+</div>
+<div>
+    Direccion: @Model.veterinario.Direccion
+</div>
+<div>
+    Telefono: @Model.veterinario.Telefono
+</div>
+<div>
+    Correo: @Model.veterinario.TarjetaProfesional
+</div>
+<a asp-page="./Listaveterinarios" class="btn-default">Lista de Veterinarios </a>
