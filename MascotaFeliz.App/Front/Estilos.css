@@ -4,6 +4,7 @@ body{
 
 	
 }
+
 #cabecera{
 	color:yellow;
 	text-shadow:3px 3px DeepSkyBlue;
@@ -14,8 +15,7 @@ body{
 	line-height:40px;
 	height:40px;
 	width:60%;
-	margin-right:20%;
-	margin-left:20%;
+	margin: 0 20% 0 20%;
 }
 form{
 	background-color: #9fd5d1;
