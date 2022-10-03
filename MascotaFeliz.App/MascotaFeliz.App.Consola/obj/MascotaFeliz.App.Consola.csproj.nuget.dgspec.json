@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Mascotas\\proyectico\\proyectoc3\\mascotafeliz.app\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj": {}
+    "C:\\Mascotas\\proyectico\\proyectoc3\\mascotafeliz.app\\mascotafeliz.app.consola\\MascotaFeliz.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\Mascotas\\proyectico\\proyectoc3\\mascotafeliz.app\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj": {
+    "C:\\Mascotas\\proyectico\\proyectoc3\\mascotafeliz.app\\mascotafeliz.app.consola\\MascotaFeliz.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mascotas\\proyectico\\proyectoc3\\mascotafeliz.app\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj",
+        "projectUniqueName": "C:\\Mascotas\\proyectico\\proyectoc3\\mascotafeliz.app\\mascotafeliz.app.consola\\MascotaFeliz.App.Consola.csproj",
         "projectName": "MascotaFeliz.App.Consola",
-        "projectPath": "C:\\Mascotas\\proyectico\\proyectoc3\\mascotafeliz.app\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj",
+        "projectPath": "C:\\Mascotas\\proyectico\\proyectoc3\\mascotafeliz.app\\mascotafeliz.app.consola\\MascotaFeliz.App.Consola.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Mascotas\\proyectico\\proyectoc3\\mascotafeliz.app\\MascotaFeliz.App.Consola\\obj\\",
+        "outputPath": "C:\\Mascotas\\proyectico\\proyectoc3\\mascotafeliz.app\\mascotafeliz.app.consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
