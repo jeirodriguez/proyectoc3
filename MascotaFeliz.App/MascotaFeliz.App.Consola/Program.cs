@@ -19,7 +19,7 @@ namespace MascotaFeliz.App.Consola
             Console.WriteLine("Hola amigos vamos a empezar a trabajar con las tablas");
 
             //ListarDuenosFiltro();      
-            //AddDueno();
+           // AddDueno();
             //BuscarDueno(1);
             
             //ListarDuenos();
@@ -39,35 +39,48 @@ namespace MascotaFeliz.App.Consola
             
             //AddHistoria();
             //AsignarVisitaPyP(2);
-            ListarMascotas();
+            //ListarMascotas();
 
         }
 
         private static void AddDueno()
         {
-            var dueno = new Dueno
+            var dueno1 = new Dueno
             {
-                Cedula = "4545",
-                Nombres = "Juanito",
-                Apellidos = "Alimaña",
-                Direccion = "Casa de los padres",
-                Telefono = "515151515",
-                Correo = "juanitoalimana@gmail.com"
+                Cedula = "10426579897",
+                Nombres = " Sebastian",
+                Apellidos = "Madrid",
+                Direccion = "Envigado",
+                Telefono = "304556844",
+                Correo = "digui99@gmail.com"
             };
-            dueno = _repoDueno.AddDueno(dueno);
-          
+            var dueno2 = new Dueno
+            {
+                Cedula = "4566245",
+                Nombres = "Oscar",
+                Apellidos = "Alvarez",
+                Direccion = "Itagui",
+                Telefono = "32245554",
+                Correo = "oscar32245@gmail.com"
+            };
+            _repoDueno.AddDueno(dueno1);
+             _repoDueno.AddDueno(dueno2);
+        
         }
+        
+    
+    
 
         private static void AddVeterinario()
         {
             var veterinario = new Veterinario
             {
-                Cedula = "555555",
-                Nombres = "La Chilindrina",
-                Apellidos = "No se sabe",
-                Direccion = "Transversal 5 # 17A-155",
-                Telefono = "2222222222",
-                TarjetaProfesional = "TP0001"
+                Cedula = "10426548798",
+                Nombres = "Vanessa",
+                Apellidos = "Lopez",
+                Direccion = "caldas cr50 #99-18",
+                Telefono = "3151155587",
+                TarjetaProfesional = "TP00015"
             };
             _repoVeterinario.AddVeterinario(veterinario);
 
@@ -75,14 +88,35 @@ namespace MascotaFeliz.App.Consola
 
         private static void AddMascota()
         {
-            var mascota = new Mascota
+            var mascota1 = new Mascota
+            {
+                Nombre = "Chachara",
+                Color = "negro - blanco",
+                Especie = "felino",
+                Raza = "criollo"
+            };
+ 
+
+            var mascota2 = new Mascota
+            {
+                Nombre = "Lupe",
+                Color = "Cafe",
+                Especie = "Canino",
+                Raza = "Labrador"
+            };
+         
+
+            var mascota3 = new Mascota
             {
                 Nombre = "Ragnar",
-                Color = "Sable",
+                Color = "negro",
                 Especie = "Canino",
-                Raza = "Husky"
+                Raza = "Lobo siberiano"
             };
-            _repoMascota.AddMascota(mascota);
+            _repoMascota.AddMascota(mascota1);
+            _repoMascota.AddMascota(mascota2);
+            _repoMascota.AddMascota(mascota3);
+
 
         }
 
